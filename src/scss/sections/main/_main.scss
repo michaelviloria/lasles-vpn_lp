@@ -1,0 +1,11 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  @import "./main-home";
+  @import "./main-features";
+  @import "./main-plans";
+  @import "./main-network";
+  @import "./main-comments";
+  @import "./main-suscribe";
+}

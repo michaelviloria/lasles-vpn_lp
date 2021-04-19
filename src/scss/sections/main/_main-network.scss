@@ -1,0 +1,33 @@
+.network {
+  margin-top: 50px;
+  .network-title {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    h2 {
+      font-size: 3.5rem;
+      font-weight: $font-weight-medium;
+      color: $black;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.6rem;
+      font-weight: $font-weight-regular;
+      color: $gray;
+      margin-bottom: 40px;
+      span {
+        font-weight: $font-weight-medium;
+      }
+    }
+  }
+  .network-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "./lib/class";
+@import "./lib/variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: $font-family-rubik, Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  @import "./sections/header/header";
+  @import "./sections/main/main";
+  @import "./sections/footer/footer";
+}

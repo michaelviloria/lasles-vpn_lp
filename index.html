@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6cd755e49d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="./src/img/logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <title>Lasles VPN</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="nav-logo">
+          <img src="./src/img/logo.svg" alt="Logo Lasles VPN" />
+          <p>Lasles<span>VPN</span></p>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <i class="fas fa-bars" id="menu-btn"></i>
+          <div class="menu-links">
+            <a href="">About</a>
+            <a href="">Features</a>
+            <a href="">Pricing</a>
+            <a href="">Testimonials</a>
+            <a href="">Help</a>
+          </div>
+          <div class="menu-acces">
+            <a href="">Sign In</a>
+            <a href="" role="button">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="home">
+        <div class="home-content">
+          <h1>Want anything to be easy with <span>LaslesVPN.</span></h1>
+          <p>
+            Provide a network for all your needs with ease and fun using
+            <span>LaslesVPN</span> discover interesting features from us.
+          </p>
+          <a href="">Get Started</a>
+        </div>
+        <div class="home-img">
+          <img src="./src/img/illustration-1.png" alt="illustration-1" />
+        </div>
+        <div class="home-info">
+          <div class="users info-item">
+            <i class="fas fa-user"></i>
+            <p>90+</p>
+            <span>Users</span>
+          </div>
+          <div class="locations info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>30+</p>
+            <span>Locations</span>
+          </div>
+          <div class="servers info-item">
+            <i class="fas fa-server"></i>
+            <p>50+</p>
+            <span>Servers</span>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="features-img">
+          <img src="./src/img/illustration-2.png" alt="illustration-2" />
+        </div>
+        <div class="features-content">
+          <h2>We Provide Many Features You Can Use</h2>
+          <p>
+            You can explore the features that we provide with fun and have their
+            own functions each feature.
+          </p>
+          <ul>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Powerfull online protection.
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Internet without borders.
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              Supercharged VPN
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i>
+              No specific time limits.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="plans">
+        <div class="plans-info">
+          <h2>Choose Your Plan</h2>
+          <p>
+            Let's choose the package that is best for you and explore it happily
+            and cheerfully.
+          </p>
+        </div>
+        <div class="plans-cards" id="cards-container">
+          <div class="arrows">
+            <button
+              id="btn-arrow-right"
+              class="btn-arrow btn-arrow-right visible"
+            >
+              <i class="fas fa-arrow-circle-right"></i>
+            </button>
+            <button id="btn-arrow-left" class="btn-arrow btn-arrow-left">
+              <i class="fas fa-arrow-circle-left"></i>
+            </button>
+          </div>
+          <div class="card-item active" data-card-info="0" data-select="">
+            <img src="./src/img/box.png" alt="" />
+            <h3>Free Plan</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i>
+                Unlimited Bandwitch
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Encrypted Connection
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                No Traffic Logs
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Works on All Devices
+              </li>
+            </ul>
+            <p>Free</p>
+            <button class="btn-select">Select</button>
+          </div>
+          <div class="card-item" data-select="">
+            <img src="./src/img/box.png" alt="" />
+            <h3>Standard Plan</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i>
+                Unlimited Bandwitch
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Encrypted Connection
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Yes Traffic Logs
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Works on All Devices
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Connect Anyware
+              </li>
+            </ul>
+            <p>$9 <span>/ mo</span></p>
+            <button class="btn-select">Select</button>
+          </div>
+          <div class="card-item" data-select="">
+            <img src="./src/img/box.png" alt="" />
+            <h3>Premium Plan</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i>
+                Unlimited Bandwitch
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Encrypted Connection
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Yes Traffic Logs
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Works on All Devices
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Connect Anyware
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Get New Features
+              </li>
+            </ul>
+            <p>$12 <span>/ mo</span></p>
+            <button class="btn-select">Select</button>
+          </div>
+        </div>
+      </section>
+      <section class="network">
+        <div class="network-title">
+          <h2>Huge Global Network of Fast VPN</h2>
+          <p>
+            See <span>LaslesVPN</span> everywhere to make it easier for you when
+            you move locations.
+          </p>
+        </div>
+        <div class="network-img">
+          <img src="./src/img/map-global.png" alt="image map-global" />
+          <img src="./src/img/sponsored.png" alt="image sponsored" />
+        </div>
+      </section>
+      <section class="comments">
+        <div class="comments-title">
+          <h2>Trusted by Thousands of Happy Customer</h2>
+          <p>
+            These are the stories of our customers who have joined us with great
+            pleasure when using this crazy feature.
+          </p>
+        </div>
+        <div class="comments-container" id="comments-container">
+          <div class="comment-item active" data-comment-info="0">
+            <div class="item-user">
+              <div class="user-img">
+                <img src="./src/img/robert-img.png" alt="image" />
+              </div>
+              <div class="user-name">
+                <p>Viezh Robert</p>
+                <span>Warsaw, Poland</span>
+              </div>
+            </div>
+            <div class="item-info">
+              <p>
+                “Wow... I am very happy to use this VPN, it turned out to be
+                more than my expectations and so far there have been no
+                problems. LaslesVPN always the best”.
+              </p>
+            </div>
+            <div class="item-calification">
+              <span>4.5</span><i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="item-user">
+              <div class="user-img">
+                <img src="./src/img/yessica-img.png" alt="image" />
+              </div>
+              <div class="user-name">
+                <p>Yessica Christy</p>
+                <span>Shanxi, China</span>
+              </div>
+            </div>
+            <div class="item-info">
+              <p>
+                “I like it because I like to travel far and still can connect
+                with high speed.”.
+              </p>
+            </div>
+            <div class="item-calification">
+              <span>4.5</span><i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="item-user">
+              <div class="user-img">
+                <img src="./src/img/kim-img.png" alt="image" />
+              </div>
+              <div class="user-name">
+                <p>Kim Young Jou</p>
+                <span>Seoul, South Korea</span>
+              </div>
+            </div>
+            <div class="item-info">
+              <p>
+                “This is very unusual for my business that currently requires a
+                virtual private network that has high security.”.
+                </p>
+            </div>
+            <div class="item-calification">
+              <span>4.5</span><i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div class="comments-navigation">
+          <div class="navigation-show">
+            <div class="show-item active"></div>
+            <div class="show-item"></div>
+            <div class="show-item"></div>
+          </div>
+          <div class="navigation-arrows">
+            <button id="btn-comment-arrow-left">
+              <i class="fas fa-long-arrow-alt-left"></i>
+            </button>
+            <button id="btn-comment-arrow-right">
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="suscribe">
+        <div class="suscribe-content">
+          <h2>Subscribe Now for Get Special Features!</h2>
+          <p>Let's subscribe with us and find the fun.</p>
+        </div>
+        <div class="suscribe-button">
+          <button>Suscribe Now</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="logo">
+            <img src="./src/img/logo.svg" alt="Logo">
+            <p>Lasles<span>VPN</span></p>
+          </div>
+          <div class="content">
+            <p><span>LaslesVPN</span> is a private virtual network that has unique features and has high security.</p>
+          </div>
+          <div class="social-media">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="watermark">
+            <p>©2020<span>LaslesVPN</span></p>
+          </div>
+        </div>
+        <div class="footer-info">
+          <div class="product">
+            <h3>Product</h3>
+            <ul>
+              <li>
+                <a href="">Download</a>
+              </li>
+              <li>
+                <a href="">Pricing</a>
+              </li>
+              <li>
+                <a href="">Locations</a>
+              </li>
+              <li>
+                <a href="">Server</a>
+              </li>
+              <li>
+                <a href="">Countries</a>
+              </li>
+              <li>
+                <a href="">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="engage">
+            <h3>Engage</h3>
+            <ul>
+              <li>
+                <a href="">LaslesVPN ?</a>
+              </li>
+              <li>
+                <a href="">FAQ</a>
+              </li>
+              <li>
+                <a href="">Tutorials</a>
+              </li>
+              <li>
+                <a href="">About Us</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="earn-money">
+            <h3>Earn Money</h3>
+            <ul>
+              <li>
+                <a href="">Affiliate</a>
+              </li>
+              <li>
+                <a href="">Become Partner</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

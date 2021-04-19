@@ -1,0 +1,57 @@
+.suscribe {
+  .suscribe-content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    h2 {
+      font-size: 3.5rem;
+      font-weight: $font-weight-medium;
+      color: $black;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.6rem;
+      font-weight: $font-weight-regular;
+      color: $gray;
+    }
+  }
+  .suscribe-button {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    button {
+      font-size: 1.6rem;
+      font-weight: $font-weight-bold;
+      color: $white;
+      width: 90%;
+      min-width: 300px;
+      max-width: 320px;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: $red;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .suscribe {
+    display: grid;
+    grid-template-columns: 1fr 340px;
+    position: absolute;
+    bottom: -180px;
+    .suscribe-content {
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .suscribe {
+    grid-template-columns: 1fr 1fr;
+    .suscribe-button {
+      margin-top: 0;
+      align-items: center;
+    }
+  }
+}

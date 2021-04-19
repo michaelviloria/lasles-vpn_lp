@@ -1,0 +1,149 @@
+.plans {
+  margin-top: 100px;
+  .plans-info {
+    width: 90%;
+    margin: 0 auto;
+    h2 {
+      font-size: 3.5rem;
+      font-weight: $font-weight-medium;
+      color: $black;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.6rem;
+      font-weight: $font-weight-regular;
+      color: gray;
+      margin-bottom: 30px;
+    }
+  }
+  .plans-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 630px;
+    overflow: hidden;
+    .card-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 90%;
+      max-width: 350px;
+      height: 620px;
+      border: 2px solid $gray-light;
+      border-radius: 10px;
+      transition: all .6s ease-in-out;
+      position: absolute;
+      left: 100%;
+      img {
+        width: 145px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      h3 {
+        font-size: 1.8rem;
+        font-weight: $font-weight-medium;
+        color: $black;
+        margin-bottom: 30px;
+      }
+      ul {
+        height: 230px;
+        li {
+          font-size: 1.4rem;
+          font-weight: $font-weight-regular;
+          color: $gray;
+          list-style: none;
+          margin-bottom: 10px;
+          .fa-check {
+            font-size: 1.4rem;
+            color: $green;
+            margin-right: 20px;
+          }
+        }
+      }
+      p {
+        font-size: 2.5rem;
+        font-weight: $font-weight-medium;
+        color: $black;
+        margin-top: 10px;
+      }
+      button {
+        font-size: 1.6rem;
+        font-weight: $font-weight-bold;
+        color: $red;
+        width: 180px;
+        height: 45px;
+        background-color: $white;
+        border: 2px solid $red;
+        border-radius: 50px;
+        margin-bottom: 20px;
+      }
+      button:active {
+        transform: scale(.9);
+      }
+      button:focus {
+        outline: none;
+      }
+    }
+    .card-item.active {
+      left: calc(50% - 142px);
+    }
+    .card-item.select {
+      border: 2px solid $red;
+      button {
+        color: $white;
+        background-color: $red;
+      }
+    }
+    .arrows {
+      .btn-arrow {
+        position: absolute;
+        display: none;
+        z-index: 1;
+        border-radius: 50%;
+        background-color: $white;
+        border: none;
+        .fa-arrow-circle-left, .fa-arrow-circle-right {
+          font-size: 3rem;
+          color: $red-light;
+        }
+      }
+      .btn-arrow:focus {
+        outline: none;
+      }
+      .btn-arrow.visible {
+        display: inline-block;
+      }
+      .btn-arrow-right {
+        top: calc(50% - 15px);
+        right: 10px;
+      }
+      .btn-arrow-left {
+        top: calc(50% - 15px);
+        left: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .plans {
+    .plans-info {
+      p {
+        text-align: center;
+      }
+    }
+    .plans-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      .card-item {
+        position: initial;
+      }
+      .arrows {
+        display: none;
+      }
+    }
+  }
+}
