@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
@@ -14,7 +15,6 @@
       crossorigin="anonymous"
     ></script>
     <link rel="shortcut icon" href="./src/img/logo.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="./src/css/index.css" />
     <title>Lasles VPN</title>
   </head>
   <body>
@@ -27,11 +27,11 @@
         <div class="nav-menu" id="nav-menu">
           <i class="fas fa-bars" id="menu-btn"></i>
           <div class="menu-links">
-            <a href="">About</a>
-            <a href="">Features</a>
-            <a href="">Pricing</a>
-            <a href="">Testimonials</a>
-            <a href="">Help</a>
+            <a href="#home">About</a>
+            <a href="#features">Features</a>
+            <a href="#plans">Pricing</a>
+            <a href="#comments">Testimonials</a>
+            <a href="#suscribe">Help</a>
           </div>
           <div class="menu-acces">
             <a href="">Sign In</a>
@@ -41,7 +41,7 @@
       </nav>
     </header>
     <main>
-      <section class="home">
+      <section class="home" id="home">
         <div class="home-content">
           <h1>Want anything to be easy with <span>LaslesVPN.</span></h1>
           <p>
@@ -71,7 +71,7 @@
           </div>
         </div>
       </section>
-      <section class="features">
+      <section class="features" id="features">
         <div class="features-img">
           <img src="./src/img/illustration-2.png" alt="illustration-2" />
         </div>
@@ -101,7 +101,7 @@
           </ul>
         </div>
       </section>
-      <section class="plans">
+      <section class="plans" id="plans">
         <div class="plans-info">
           <h2>Choose Your Plan</h2>
           <p>
@@ -207,7 +207,7 @@
           </div>
         </div>
       </section>
-      <section class="network">
+      <section class="network" id="network">
         <div class="network-title">
           <h2>Huge Global Network of Fast VPN</h2>
           <p>
@@ -220,7 +220,7 @@
           <img src="./src/img/sponsored.png" alt="image sponsored" />
         </div>
       </section>
-      <section class="comments">
+      <section class="comments" id="comments">
         <div class="comments-title">
           <h2>Trusted by Thousands of Happy Customer</h2>
           <p>
@@ -284,7 +284,7 @@
               <p>
                 “This is very unusual for my business that currently requires a
                 virtual private network that has high security.”.
-                </p>
+              </p>
             </div>
             <div class="item-calification">
               <span>4.5</span><i class="fas fa-star"></i>
@@ -307,7 +307,7 @@
           </div>
         </div>
       </section>
-      <section class="suscribe">
+      <section class="suscribe" id="suscribe">
         <div class="suscribe-content">
           <h2>Subscribe Now for Get Special Features!</h2>
           <p>Let's subscribe with us and find the fun.</p>
@@ -321,11 +321,14 @@
       <div class="footer-container">
         <div class="footer-content">
           <div class="logo">
-            <img src="./src/img/logo.svg" alt="Logo">
+            <img src="./src/img/logo.svg" alt="Logo" />
             <p>Lasles<span>VPN</span></p>
           </div>
           <div class="content">
-            <p><span>LaslesVPN</span> is a private virtual network that has unique features and has high security.</p>
+            <p>
+              <span>LaslesVPN</span> is a private virtual network that has
+              unique features and has high security.
+            </p>
           </div>
           <div class="social-media">
             <i class="fab fa-facebook-f"></i>
