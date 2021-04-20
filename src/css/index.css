@@ -542,6 +542,7 @@ body main .plans .plans-info p {
   font-weight: 400;
   color: gray;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 body main .plans .plans-cards {
@@ -686,9 +687,6 @@ body main .plans .plans-cards .arrows .btn-arrow-left {
 }
 
 @media screen and (min-width: 1024px) {
-  body main .plans .plans-info p {
-    text-align: center;
-  }
   body main .plans .plans-cards {
     display: -ms-grid;
     display: grid;
@@ -1176,4 +1174,3 @@ body footer .footer-container .footer-info {
     text-decoration: none;
   }
 }
-/*# sourceMappingURL=index.css.map */

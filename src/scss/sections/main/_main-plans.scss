@@ -15,6 +15,7 @@
       font-weight: $font-weight-regular;
       color: gray;
       margin-bottom: 30px;
+      text-align: center;
     }
   }
   .plans-cards {
@@ -129,11 +130,6 @@
 
 @media screen and (min-width: 1024px) {
   .plans {
-    .plans-info {
-      p {
-        text-align: center;
-      }
-    }
     .plans-cards {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
