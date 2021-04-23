@@ -1,6 +1,7 @@
 // Menu Responsive
 const menuBtn = document.getElementById("menu-btn");
 const navMenu = document.getElementById("nav-menu");
+const itemsMenu = navMenu.querySelectorAll(".menu-item")
 
 // Plans Section
 const btnArrowLeft = document.getElementById("btn-arrow-left");
@@ -26,6 +27,14 @@ const arrShowElements = [...showElements];
 menuBtn.addEventListener("click", () => {
   navMenu.classList.toggle("active");
 });
+
+for(item of itemsMenu) {
+  item.addEventListener("click", () => {
+    if(navMenu.classList.contains("active")) {
+      navMenu.classList.remove("active");
+    }
+  })
+}
 
 // Plans Section
 for (btnElement of arrBtnSelect) {

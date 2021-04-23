@@ -79,6 +79,7 @@
         border: 2px solid $red;
         border-radius: 50px;
         margin-bottom: 20px;
+        transition: all .5s;
       }
       button:active {
         transform: scale(.9);
@@ -95,6 +96,7 @@
       button {
         color: $white;
         background-color: $red;
+        box-shadow: 0 5px 10px $red-light;
       }
     }
     .arrows {

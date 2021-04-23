@@ -246,6 +246,8 @@ body main .home .home-content a {
   background-color: #F53838;
   padding: 15px 30px;
   border-radius: 10px;
+  -webkit-box-shadow: 0 5px 10px #F53855;
+          box-shadow: 0 5px 10px #F53855;
 }
 
 body main .home .home-img {
@@ -630,6 +632,8 @@ body main .plans .plans-cards .card-item button {
   border: 2px solid #F53838;
   border-radius: 50px;
   margin-bottom: 20px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 body main .plans .plans-cards .card-item button:active {
@@ -652,6 +656,8 @@ body main .plans .plans-cards .card-item.select {
 body main .plans .plans-cards .card-item.select button {
   color: #FFFFFF;
   background-color: #F53838;
+  -webkit-box-shadow: 0 5px 10px #F53855;
+          box-shadow: 0 5px 10px #F53855;
 }
 
 body main .plans .plans-cards .arrows .btn-arrow {
@@ -996,6 +1002,8 @@ body main .suscribe .suscribe-button button {
   border-radius: 10px;
   border: none;
   background-color: #F53838;
+  -webkit-box-shadow: 0 5px 10px #F53855;
+          box-shadow: 0 5px 10px #F53855;
 }
 
 @media screen and (min-width: 768px) {
